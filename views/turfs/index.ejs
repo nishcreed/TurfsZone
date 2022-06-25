@@ -1,0 +1,37 @@
+<% layout('layouts/boilerplate')%>
+<div id="cluster-map"></div>
+    <h1>All Turfs</h1>
+    <div>
+        <a href="/turfs/new">Add Turf</a>
+    </div>
+    <ul>
+        <% for(let turf of turfs){ %>
+            <div class="card mb-3">
+                <div class="row">
+                    <div class="col-md-4">
+                        <%if(turf.images.length) {%>
+                            <img class="img-fluid" alt="" src="<%=turf.images[0].url%>">
+                        <% }else {%>
+                            <img class="img-fluid" alt="" src="https://res.cloudinary.com/nishcreed/image/upload/v1649514145/TurfsZone/xmozdip4afjx8fenximo.jpg">    
+                        <% } %>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title"><%= turf.title %></h5>
+                            <p class="card-text"><%= turf.description%></p>
+                            <p class="card-text">
+                                <small class="text-muted"><%=turf.location%></small>
+                            </p>
+                            <a class="btn btn-primary" href="/turfs/<%=turf._id%>">view <%=turf.title%></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <% } %>
+    </ul>
+
+    <script>
+        const mapToken='<%-process.env.MAPBOX_TOKEN%>';
+        const turfs = {features:<%-JSON.stringify(turfs)%>};
+    </script>
+<script src="/javascripts/clusterMap.js"></script>
