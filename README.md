@@ -1,7 +1,7 @@
 # TurfsZone
 
 ## About
-TurfsZome is a website that shows turfs available at different places.<br>It allows authorized users to add turfs and also review any turf.
+TurfsZone is a website that shows turfs available at different places.<br>It allows authorized users to add turfs and also review any turf.
 
 
 ## Features
