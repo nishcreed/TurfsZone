@@ -19,7 +19,7 @@ TurfsZone is a website that shows turfs available at different places.<br>It all
 - Execute `node app.js` in another terminal
 - Go to localhost:3000.
 
-![1](https://user-images.githubusercontent.com/88657287/175784367-2b49ae53-6ca8-4bd4-b5cb-5ddc0650d8ed.jpg)
+![1](https://user-images.githubusercontent.com/88657287/184644575-a6f7260e-b4e4-4746-9133-897419ddb5ae.jpg)
 
 
 ![2](https://user-images.githubusercontent.com/88657287/175784370-8db21580-9794-4618-9096-7c91de3585e5.jpg)
