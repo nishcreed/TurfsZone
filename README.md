@@ -7,7 +7,7 @@ TurfsZone is a website that shows turfs available at different places.<br>It all
 ## Features
 - Viewing available turfs with the help of a map
 - Authentication and Authorization
-- Add,delete,update, delete and giving reviews for turfs
+- Add,delete,update and giving reviews for turfs
 
 
 ## How to run locally
