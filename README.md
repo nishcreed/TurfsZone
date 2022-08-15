@@ -35,7 +35,3 @@ TurfsZone is a website that shows turfs available at different places.<br>It all
 
 ![6](https://user-images.githubusercontent.com/88657287/175784383-46bb92d9-6093-4aa8-a2b1-3fec9b44fb72.jpg)
 
-
-
-## Acknowledgement
-This project was inspired from Colt Steele's Yelpcamp.
